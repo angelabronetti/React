@@ -1,0 +1,236 @@
+/*-------------------------MENU PERFIL CSS--------------------*/
+ul{
+    list-style: none;
+}
+
+#perfilmain{
+    position: relative;
+    display: flex;
+    width: 98.3vw;
+    justify-content: left;
+    top: 10em;
+
+}
+
+#menu_lateral_esquerdo {
+    border: 1px solid #ccc;
+    width: 25vw;
+}
+
+#lateral_direita {
+    width: 75vw;
+}
+
+.perfil {
+    max-width: 16vw;
+    position: relative;
+    margin: .5em auto;
+    justify-content: center;
+}
+
+.perfil:hover .texto {
+    opacity:1;
+}
+
+.nome_usuario{
+    font-size: 1.3em;
+    text-align: center;
+    margin: .1em auto;
+    padding: .5em;
+    background-color: #1d2571d7;
+    color: #fff;
+    border: rgba(66, 62, 62, 0.548);
+    border-radius: 2em;
+}
+
+#menu_lateral_esquerdo li{
+    padding: 1.46em 0;
+    text-align: center;
+    border: 1px solid #ccc; 
+}
+
+
+
+#menu_lateral_esquerdo li a{
+    text-transform: uppercase;
+    font-size: 1em;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 1.3em 4.9em;
+}
+
+#menu_lateral_esquerdo li:hover{
+    background-color: #f16984; 
+}
+
+#menu_lateral_esquerdo li a:hover{
+    color: white;
+    text-decoration-line: underline;
+    text-decoration-color: white;
+ }
+
+#menu_lateral_esquero ul li a{
+    list-style: none;
+}
+
+.topo_direito{
+    max-width: 75.5vw;
+    height: 5em;
+    background-color: #1d2571d7;
+    display: flex;
+    align-items: center;
+}
+
+.topo_direito h1{
+    color: #f16984;
+    text-transform: uppercase;
+    margin-left: 1em;
+    font-weight: bold;
+}
+.tabulatura {
+    background: #f16984;
+    color: #fff;
+    font-size: 1em;
+}
+
+
+/* ------------ EDIÇÃO DOS INPUTS - FORMULÁRIO ----------- */
+
+#info{ /* Div que contém todo o formulário */
+    width: 60%;
+    position: relative;
+    left: 410px;
+    top: -304px;
+ }
+ 
+ /* ----- Edição dos inputs do campo de inserção ----- */
+ #form1{
+     display: flex;
+     justify-content: space-around;
+     margin-left: 60px;
+     margin-top: -10px;
+     width: 40vw;
+     color: #f16984;
+     font-weight: bold;
+     flex-direction: column;
+ }
+ 
+ #box-form{
+    display: flex;
+    height: 55vh;
+    width: 80vw;
+    margin-top: 250px;
+    margin-left: -80px;
+}
+
+ 
+ .nomeUser{
+     border-radius: 8px;
+     border: 1px solid 	#C0C0C0;
+     box-shadow: 10px 5px 5px #DCDCDC;  
+     width: 20vw;  
+     margin-top: -50px;
+ }
+ 
+ .emailUser{
+     border-radius: 8px;
+     border: 1px solid 	#C0C0C0;
+     box-shadow: 10px 5px 5px #DCDCDC;  
+     width: 20vw;  
+     margin-top: -50px;
+ }
+ 
+ .cEmailUser{
+     border-radius: 8px;
+     border: 1px solid 	#C0C0C0;
+     box-shadow: 10px 5px 5px #DCDCDC;  
+     width: 20vw;  
+     margin-top: -50px;
+ }
+ /*---- Fim do campo de inserção ------ */
+ 
+ /* ------- Edição do campo de altração de e-mail div: Form2------ */
+ #form2{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 60px;
+    margin-top: -10px;
+    width: 40vw;
+    color: #f16984;
+    font-weight: bold;
+    flex-direction: column;
+ }
+ 
+ #alterEmail{ /* -- Edição da Label - campo de identificação --- */
+     display: flex;
+     justify-content: space-around;
+     flex-direction: column;
+     width: 50%;
+     color: #f16984;
+     font-weight: bold;
+ }
+ 
+ #eMail{ /* -- Edição da Label - campo de identificação --- */
+     position: relative;
+     top: -400px;
+     left: 190px;
+ }
+ 
+ .alterarSenha{
+    border-radius: 8px;
+    border: 1px solid 	#C0C0C0;
+    box-shadow: 10px 5px 5px #DCDCDC;  
+    width: 20vw;  
+    margin-top: -50px;
+ }
+ 
+ .confSenha{
+    border-radius: 8px;
+    border: 1px solid 	#C0C0C0;
+    box-shadow: 10px 5px 5px #DCDCDC;  
+    width: 20vw;  
+    margin-top: -50px;
+ }
+ /* ------ Fim da edição do campo de alteração de e-mail ----- */
+ 
+ /* ------ Edição do botão atualizar ------- */
+ .btnFinal{
+     border-radius: 15px;
+     margin-left: 60px;
+     background-color: #f16984;
+     border-color: #f16984;
+     color: white;
+     font-weight: bold;
+     width: 150px;
+     height: 50px;
+ }
+ 
+ .botaofinal{
+     display: flex;
+     align-items: center;
+     margin-top: 30px;
+ }
+ 
+ .btnFinal p{
+     display: flex;
+     justify-content: center;
+     align-content: center;
+     margin: auto;
+     height: 50px;
+     width: 150px;
+ }
+ input[type=text] {
+    width: 100vw;
+    max-width: 25vw;
+    padding: 0.75em 1.25em;
+    margin: 0.5em 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 0.0625em solid #808080;
+    background: rgba(0,0,0,0);
+}
+
+.font{
+    vertical-align: text-bottom;
+}

@@ -1,0 +1,36 @@
+#acessibilidade{
+    background: #1d2671;
+    width: 100vw;
+    height: 5.125vh;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+
+}
+#acessibilidade ul{
+    list-style: none;
+    display: flex;
+    font-size: 0.9375em;
+    margin-right: 1em;
+}
+#acessibilidade a:hover{
+    color: rgb(0, 183, 255);
+}
+.barra li{
+    margin: 0 0.4375em;
+}
+.barra a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 0.25em;
+}
+.barra li:nth-child(2){
+    border-left: 0.125em solid white; 
+    border-right: .125em solid white;
+}
+.barra li:nth-child(3){
+    border-left: .125em solid white; 
+    border-right: .125em solid white;
+    font-size: 1.0625em;
+} 

@@ -1,0 +1,146 @@
+/* Início da edição do campo de login */
+    
+#background{
+    background-image: " linear-gradient(" + " rgb(29,38,113,0.8), rgb(92,225,230,0.6), rgb(241,105,132,1)), url('../imagens/back.jpg" + ")";
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sessao{ /* Edição da div */ 
+    height: 24.25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_tw{ /* Edição da imagem de logo */ 
+    width: 100vw;
+    max-width: 10vw;
+    margin-top: .5em;
+}
+
+.logo_tw img{ /* Edição da imagem de logo */ 
+    width: 100vw;
+    max-width: 10vw;
+}
+
+.campo{ /* Edição da div "pai" */ 
+    width: 31.25vw;
+    height: 28.125vw;
+    border-color: black;
+    border-style: solid;
+    border-radius: 9px;
+    background: rgba(255, 255, 255, 0.705);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Formulario{ /* Edição dos inputs */ 
+    width: 100vw;
+    max-width: 25vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.check{ /* Edição do check da pagina "mantenha-me conectado" */ 
+    width: 100vw;
+    max-width: 25.5vw;
+    display: flex;
+    color: 	#363636;
+    margin-top: .5em;
+}
+
+.check label, input{
+    margin-left: .4em;
+    color: 	#696969;
+}
+
+.check a{
+    margin-left: 5.5em;
+    text-decoration: none;
+}
+
+.check label, a{
+    font-size: .8em;
+}
+
+.check a:hover{
+    color: rgb(192, 18, 192);
+    text-decoration-line: underline;
+    text-decoration-color: rgb(192, 18, 192);
+}
+
+.entre{ /* Edição do campo de acesso "entrar"  */
+    padding: 0.56em 6.25em;
+    margin-top: 1.25em;
+    background: #f16984;
+    border-color: #ccc;
+    border-width: 0.09375em;
+    border-style: solid;
+    border-radius: 0.5625em;
+}
+.entre a{ /* Edição da letra do campo de acesso "entrar"  */
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.entre a:hover{
+    text-decoration-line: underline;
+    text-decoration-color: white;
+}
+
+input[type=text] { /* Edição do quadrado do input */ 
+    width: 100vw;
+    max-width: 25vw;
+    padding: 0.75em 1.25em;
+    margin: 0.5em 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 0.0625em solid #808080;
+    background: rgba(0,0,0,0);
+    margin-top: 2em;
+}
+
+.login_admin{
+    padding: 0.5625em 6.25em;
+    margin-top: 0;
+}
+
+.login_admin a{
+    text-decoration: none;
+    color: 	#696969;
+    font-size: 1.1em;
+    text-shadow: 0.0525em 0 #808080;
+}
+
+.login_admin a:hover{
+    color: #1d2671;
+    text-decoration: #1d2671;
+    text-decoration-line: underline;
+}
+
+.cadastro{
+    padding: 0.5625em 6.25em;
+    margin-top: .5em;
+}
+
+.cadastro a{
+    text-decoration: none;
+    color: 	#696969;
+    font-size: 1.1em;
+    text-shadow: 0.0525em 0 #808080;
+}
+
+.cadastro a:hover{
+    color: #1d2671;
+    text-decoration: #1d2671;
+    text-decoration-line: underline;
+}
